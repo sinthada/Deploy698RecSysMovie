@@ -1,7 +1,9 @@
+!pip install scikit-surprise
 
 import streamlit as st
 import pickle
 from surprise import SVD
+
 
 # Streamlit app title
 st.title("Movie Recommendation System")
